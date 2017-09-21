@@ -12,7 +12,7 @@ or print it with header and footer:
 $("table").printObject({
 &nbsp;&nbsp;  header: "&lt;h2&gt; User basket &lt;/h2&gt;",<br />
 &nbsp;&nbsp;  header_style: 'color: red;',<br />
-&nbsp;&nbsp;  footer: '&lt;a href="ht&#8203;tp://example.com"&gt;  Example Company Name&lt &lt;/a&gt;',<br />
+&nbsp;&nbsp;  footer: '&lt;a href="ht&#8203;tp://example.com"&gt;  Example Company Name &lt;/a&gt;',<br />
 &nbsp;&nbsp;  footer_style: "color: blue; font-size: 12px;"<br />
 });
 
