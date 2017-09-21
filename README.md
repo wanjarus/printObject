@@ -10,12 +10,12 @@ $("table").printObject();
 or print it with header and footer:
 
 $("table").printObject({
-  header: "&lt;h2&amp;User basket&lt;/h2&amp;",
-  header_style: 'color: red;',
-  footer: '&lt;a href="http://www.example.com"&amp;Example Company Name&lt;/a&amp;',
-  footer_style: "color: blue; font-size: 12px;"
+&nbsp;&nbsp;  header: "&lt;h2&amp;User basket&lt;/h2&amp;",<br />
+&nbsp;&nbsp;  header_style: 'color: red;',<br />
+&nbsp;&nbsp;  footer: '&lt;a href="http://www.example.com"&amp;Example Company Name&lt;/a&amp;',<br />
+&nbsp;&nbsp;  footer_style: "color: blue; font-size: 12px;"<br />
 });
-, and .
+
 In 1.1.0 version added four parameters to plugin:
 - header - here you can put html code which will be diplay above the printing html object for example '&lt;h1&amp;Header</h1&amp;';
 - header_style - here you can put header style definitin for example "color: red; font-size: 20px;";
